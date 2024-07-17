@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rickyalbuq/clean-node-api/issues"
   },
-  "homepage": "https://github.com/rickyalbuq/clean-node-api#readme"
+  "homepage": "https://github.com/rickyalbuq/clean-node-api#readme",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  }
 }
