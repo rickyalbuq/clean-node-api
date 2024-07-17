@@ -1,0 +1,25 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "description": "Estudando a criação de api em nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyalbuq/clean-node-api.git"
+  },
+  "keywords": [
+    "api",
+    "nodejs",
+    "tdd",
+    "cleanCode"
+  ],
+  "author": "Henrique Albuquerque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickyalbuq/clean-node-api/issues"
+  },
+  "homepage": "https://github.com/rickyalbuq/clean-node-api#readme"
+}
