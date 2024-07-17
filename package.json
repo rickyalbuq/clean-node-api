@@ -4,9 +4,8 @@
   "description": "Estudando a criação de api em nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
-    "prepare": "husky"
+    "test": "jest --watchAll",
+    "test:staged": "jest"
   },
   "husky": {
     "hooks": {
