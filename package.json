@@ -4,7 +4,20 @@
   "description": "Estudando a criação de api em nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:staged": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "npm run test:staged",
+      "git add"
+    ]
   },
   "standard": {
     "env": [
